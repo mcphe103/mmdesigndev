@@ -1,54 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>Startup</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
 
-
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   </head>
   <body>
-    <div class=" d-flex justify-content-between inline">
-      <h1 class="brand">MM<span>D</span>esign<span>D</span>ev</h1>
+<!-- ================ Nav Bar ================ -->
+<nav class="navbar navbar-expand-lg navbar-light c-bg">
+  <a class="navbar-brand logo3" href="#"><img src="images/logo3.png" alt=""></a>
+  <button class="navbar-toggler c-button-color" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Experience</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item c-dropdown-color" href="#">Action</a>
+          <a class="dropdown-item c-dropdown-color" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item c-dropdown-color" href="#">Something else here</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Pet Care Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item c-dropdown-color" href="#">Action</a>
+          <a class="dropdown-item c-dropdown-color" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item c-dropdown-color" href="#">Something else here</a>
+        </div>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Team Members
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item c-dropdown-color" href="#">Action</a>
+          <a class="dropdown-item c-dropdown-color" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item c-dropdown-color" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+
+
+    <!-- ================ Jumbotron ================ -->
+
+    <div class="jumbotron text-center c-text-brand"  style="background-color:#EBE7FF"  >
+      <h1>Superior Quality For Your Pets</h1>
+      <img class="dog" src="images/cautious_dog.svg" alt="dog">
+      <p>Serving The Orlando area since 2019 1-440-123-4567</p>
     </div>
 
+<!-- ================  ================ -->
 
-    <div class="container d-flex align-items-start h-100">
-      <div class="row">
-        <header class="text-center col-12">
+    <div class="c-bg-info c-container d-flex justify-content-around">
+        <img class="profile-img" src="images/profile.jpg" alt="">
+        <p class="c-text-info">Orlando Dog Days is owned and run by Brandon Lewis, who is an insured professional pet sitter in the Orlando area.
+           O.D.D. offers a wide variety of services, including feeding/potty break visits, dog walks, and so much more!</p>
+    </div>
 
-      <h1 class="text-uppercase">Hello! I'm <span><strong>Matthew McPherson</strong></span>. </h1>
-      <h1> A Web Developer!</h1>
-      </header>
-      <div class="buffer col-12 ">
+    <!-- ================  ================ -->
 
-      </div>
-      <section class="text-center col-12">
-      <hr>
-      <a href="https://mailchi.mp/b0115fece137/mmdesigndev">
-        <button class="btn btn-primary btn-xl"type="button" name="button">Find Out More</button>
-      </a>
-    </section>
+<div class="c-container  " style="background-color:#EBE7FF">
+  <div class="container img-services d-flex justify-content-around">
+
+    <div class="card shadow p-3 mb-5 rounded border-dark zoom">
+      <img class="card-img-top text-center c-margin-center" src="images/back_home.svg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text text-center">Pet Sitting</p>
       </div>
     </div>
 
+    <div class="card shadow p-3 mb-5 rounded border-dark zoom">
+      <img class="card-img-top text-center c-margin-center" src="images/services.svg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text text-center">Pet Sitting</p>
+      </div>
+    </div>
+
+    <div class="card shadow p-3 mb-5 rounded border-dark zoom">
+      <img class="card-img-top text-center c-margin-center" src="images/dog_walking.svg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text text-center">Pet Sitting</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="c-bg-info c-container d-flex justify-content-around">
+
+    <div class="">
+      <p class="c-text-info">In-home meet and greets allow us to chat with you and your pets and learn about habits, routines,
+        and anything else we need to know to provide your pets with the best care we can. Feel free to reach out if you have
+        any questions!</p>
+        <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+       <img class="profile-img" src="images/dog.jpg" alt="">
+</div>
+
+  <div class="text-center c-text-brand c-bg-light c-container">
+    <h1>Why Trust Orlando Dogs Days?</h1>
+    <img src="images/pci-badge-large2.png" alt="">
+    <h2>PetCare Insurance Sealed</h2>
+  </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
