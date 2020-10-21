@@ -1,0 +1,110 @@
+.dog {
+  max-width: 10rem;
+  margin: 15px;
+}
+
+.jumbotron {
+  background-color: #EBE7FF;
+  margin-bottom: 0 !important;
+}
+
+.c-bg-light {
+  background-color: #EBE7FF;
+}
+
+
+
+.logo3 img {
+  width: 8rem;
+  margin-left: 3rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  max-width: 15rem;
+
+}
+
+.c-bg {
+  background-color: #090046;
+}
+.c-bg-info {
+  background-color: #0E006A;
+}
+
+.c-text-brand {
+  color: #0E006A;
+}
+
+.c-text-info {
+  color: #FFD700;
+  max-width: 25em;
+  font-size: 20px;
+}
+
+.c-text a {
+  color: #BBB0FF !important;
+  font-size: 20px !important;
+  margin-right: 3rem;
+}
+
+.c-container {
+  height: 25rem;
+  padding: 4rem;
+  top: 0;
+  max-width: 100%;
+}
+
+.img-services img {
+  max-width: 10rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.c-margin-center {
+  margin: auto;
+}
+
+.card {
+  width: 18rem;
+  margin-top: 4rem;
+  background-color: #EBE7FF !important;
+}
+
+/* .card:hover {
+  background-color: red !important;
+} */
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
+}
+
+.c-button-color {
+  background-color: #EBE7FF !important;
+}
+
+.dropdown-menu {
+  background-color: #BBB0FF !important;
+}
+.dropdown-item {
+  color: #EBE7FF !important;
+}
+
+.c-dropdown-color {
+  color: #0D005E !important;
+}
+
+.nav-link {
+  color: #EBE7FF !important;
+}
