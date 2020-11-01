@@ -14,6 +14,8 @@
 
 
 
+
+
 .logo3 img {
   width: 8rem;
   margin-left: 3rem;
@@ -23,6 +25,21 @@
   border-radius: 50%;
   max-width: 15rem;
 
+}
+
+button {
+  background-color: #EBE7FF !important;
+  color: #090046 !important;
+}
+
+button:hover {
+  background-color: #BBB0FF !important;
+  /* color: #BBB0FF !important; */
+}
+
+button:active {
+  background-color: #BBB0FF !important;
+  transform: translateY(4px) !important;
 }
 
 .c-bg {
@@ -39,7 +56,8 @@
 .c-text-info {
   color: #FFD700;
   max-width: 25em;
-  font-size: 20px;
+  font-size: 25px;
+
 }
 
 .c-text a {
@@ -49,7 +67,7 @@
 }
 
 .c-container {
-  height: 25rem;
+  height: 28rem;
   padding: 4rem;
   top: 0;
   max-width: 100%;
@@ -85,9 +103,9 @@
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 .c-button-color {
@@ -118,4 +136,41 @@
 .c-copyright {
   margin-top: 6rem;
   opacity: 50%;
+}
+
+
+
+/* ==================== Phone ==================== */
+
+
+
+@media screen and (max-width: 600px) {
+
+/* .c-text-info {
+  color: red !important;
+} */
+
+.profile-img {
+  display: none;
+}
+.card {
+  width: 12rem;
+  height: 10rem;
+  margin-top: 5rem;
+  margin-bottom: ;
+  align-items: center;
+  background-color: #EBE7FF !important;
+}
+
+.card-text{
+}
+
+.card div p {
+  margin: 0 !important;
+}
+
+.c-container-xs {
+  height: 65rem;
+}
+
 }
