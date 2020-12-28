@@ -214,3 +214,12 @@ top: 20px;
   border-radius: 100px;
   text-decoration: none;
 }
+
+
+/* ============== Media ============== */
+
+@media (max-width: 1250px) {
+.nav {
+  display: none;
+}
+ }
