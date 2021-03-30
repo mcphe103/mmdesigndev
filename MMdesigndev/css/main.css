@@ -1,0 +1,73 @@
+ html, body {
+  background-color: black;
+}
+
+.nav-font {
+  font-family: Montserrat;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: crimson !important;
+}
+
+span {
+  color: crimson;
+}
+
+h1 {
+  font-family: Iceland;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px red;
+
+}
+
+h4 {
+  font-family: Montserrat;
+}
+
+.top-container {
+color: #a9a9a9;
+margin-top: 7rem;
+margin-bottom: 7rem;
+}
+
+h3 {
+  color: #a9a9a9;
+}
+
+.about {
+  color: white;
+  margin: auto 0;
+}
+
+.c-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottom-container {
+  color: #a9a9a9;
+}
+
+.bottom-container a {
+  text-decoration: none;
+color: #a9a9a9;
+}
+
+.bottom-container p {
+  line-height: 0;
+}
+
+
+.copyright {
+  color: white;
+}

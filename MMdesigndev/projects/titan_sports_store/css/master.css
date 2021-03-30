@@ -1,0 +1,27 @@
+#ad-container {
+  height: 250px;
+  width: 300px;
+}
+
+#ad-container img {
+  border: 0;
+  position: absolute;
+  left: 40%;
+}
+
+body {
+  text-align: center;
+}
+
+.description {
+margin: 5rem;}
+
+footer {
+  position: fixed;
+  height: 50px;
+  background-color: #F3F3F3;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
